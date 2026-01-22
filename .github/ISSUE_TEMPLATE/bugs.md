@@ -1,6 +1,6 @@
 ---
 name: 出Bug了！
-about: 汇报一个bug帮助地图改进
+about: 汇报一个BUG帮助地图改进
 title: "[Bug] "
 labels: bug
 assignees: littlecxm
@@ -12,6 +12,7 @@ assignees: littlecxm
 
 **复制**
 （此处写你如何重现这个bug）
+
 1. 转到“…”
 2. 点击“…”
 3. blablabla
