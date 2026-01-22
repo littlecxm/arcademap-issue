@@ -1,0 +1,27 @@
+name: 一起写代码
+description: 要和我立下契约吗？魔法少女们！
+title: "[Contrib] "
+labels: []
+assignees:
+  - littlecxm
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请写下您的技术技能、想参与的方向等等
+  - type: textarea
+    id: skills
+    attributes:
+      label: 您的技术技能、想参与的方向等等
+      description: 例如：Vue3、Laravel、Tailwind CSS 等。
+      placeholder: 请描述您的技能栈…
+    validations:
+      required: true
+  - type: textarea
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 留下一个我们能联系到您的方式（邮箱/社媒/IM）。
+      placeholder: 可选。
+    validations:
+      required: false

@@ -1,0 +1,57 @@
+name: 出Bug了！
+description: 汇报一个BUG帮助地图改进
+title: "[Bug] "
+labels: ["bug"]
+assignees:
+  - littlecxm
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请填写以下信息，帮助我们复现并修复问题。
+  - type: textarea
+    id: description
+    attributes:
+      label: 描述错误
+      description: 请提供对问题清晰且简洁的描述。
+      placeholder: 对发生了什么的详细说明...
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: 您在哪些浏览器上遇到此问题？
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - 其他
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 告诉我们如何触发这个问题。
+      placeholder: |
+        1. 转到"..."
+        2. 点击"..."
+        3. ...
+        4. 出错了！
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 屏幕截图
+      description: 如有，请粘贴截图或图片链接。
+      placeholder: 上传或粘贴截图。
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: 其他
+      description: 任何其他相关信息或日志。
+    validations:
+      required: false

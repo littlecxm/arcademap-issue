@@ -1,0 +1,35 @@
+name: 我想提个新功能
+description: 为这个地图提出一个想法
+title: "[Feat] "
+labels: ["feature"]
+assignees:
+  - littlecxm
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请描述您的期望。
+  - type: textarea
+    id: related
+    attributes:
+      label: 是否与问题相关
+      description: 如与现有问题相关，请简述问题。
+      placeholder: 对没满足需求的地方做个简述…
+    validations:
+      required: false
+  - type: textarea
+    id: solution
+    attributes:
+      label: 您想要的解决方案
+      description: 清晰、简洁地描述希望实现的功能。
+      placeholder: 描述功能、交互或预期结果…
+    validations:
+      required: true
+  - type: textarea
+    id: extras
+    attributes:
+      label: 其他信息或截图
+      description: 任何补充说明、参考链接或截图。
+      placeholder: 可选填写，上传或粘贴截图。
+    validations:
+      required: false
